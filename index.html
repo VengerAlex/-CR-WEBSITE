@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptor</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__inner">
+                    <a href="index.html" class="header__logo">
+                        <img src="images/main/logo.svg" alt="">
+                    </a>
+                    <div class="header__toggle">
+                        <span></span>
+                    </div>
+                    <div class="header__body">
+                        <div class="header__wrapper">
+                            <nav class="nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item"><a href="#" class="nav__link nav__link--active">Главная</a>
+                                    </li>
+                                    <li class="nav__item"><a href="#" class="nav__link">FAQ</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">Партнерам</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">White Paper</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header__panel">
+                                <select id="select">
+                                    <option value="0" data-imagesrc="images/icons/ru.png"></option>
+
+                                    <option value="1" data-imagesrc="images/icons/ua.png"></option>
+
+                                    <option value="2" selected="selected" data-imagesrc="images/icons/en.svg"></option>
+                                </select>
+                                <a class="header__registration" href="#">Регистрация</a>
+                                <a class="header__btn" href="#">Войти</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <section class="intro">
+                <div class="intro__bg">
+                    <img loading="lazy" src="images/main/bg.png" alt="">
+                </div>
+                <div class="intro__container container">
+                    <div class="intro__inner">
+                        <div class="intro__content anim-items anim-no-hide anim-left">
+                            <h1 class="intro__title">Cryptor.guru Lab: инкубатор <span>IT/blockchain</span> проектов
+                            </h1>
+                            <p class="intro__text">Мы создаем, развиваем молодые проекты и инвестируем в перспективные
+                                стартапы в блокчейн финансово технической отрасли</p>
+                            <div class="intro__btn btn" id="video">
+                                <span>Смотреть видео</span>
+                                <img class="btn__icon" src="images/icons/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="intro__img anim-items anim-no-hide anim-right rellax">
+                            <img loading="lazy" src="images/main/hosting.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sphere">
+                <div class="sphere__container container">
+                    <div class="sphere__inner">
+                        <div class="sphere__img anim-items anim-no-hide anim-left rellax" data-rellax-speed="2">
+                            <img loading="lazy" src="images/main/sphere.png" alt="">
+                        </div>
+                        <div class="sphere__content anim-items anim-no-hide anim-right">
+                            <h2 class="sphere__title title">
+                                <span>Сфера деятельности нашей компании</span>
+                            </h2>
+                            <p class="sphere__text">Наша команда разработчиков занимается следующими направлениями:
+                                разработка DAPP, онлайн-игр, кастомизированных решений для финтех сектора и банковской
+                                отрасли, медицинской и логистической сфер, saas- и baas-решений</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__container container">
+                    <div class="section__inner">
+                        <div class="section__content anim-items anim-no-hide anim-left">
+                            <h3 class="section__title">Blockchain</h3>
+                            <ul class="section__list">
+                                <li class="section__item">Разработка криптовалют</li>
+                                <li class="section__item">Разработка смарт-контрактов</li>
+                                <li class="section__item">Разработка dapp</li>
+                                <li class="section__item">Разработка криптообменников</li>
+                                <li class="section__item">Разработка криптовалютных бирж и DeFi</li>
+                                <li class="section__item">Разработка корпоративного блокчейна</li>
+                            </ul>
+                        </div>
+                        <div class="section__wrapper anim-items anim-no-hide anim-right">
+                            <div class="section__img">
+                                <img src="images/icons/blockchain1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section--middle">
+                <div class="section__container  container">
+                    <div class="section__inner section__inner--middle">
+                        <div class="section__wrapper anim-items anim-no-hide anim-left">
+                            <div class="section__img">
+                                <img src="images/icons/blockchain2.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="section__content anim-items anim-no-hide anim-right">
+                            <h3 class="section__title">Финансово-технические решения</h3>
+                            <ul class="section__list">
+                                <li class="section__item">Разработка платежных систем</li>
+                                <li class="section__item">Разработка интерфейсов банков</li>
+                                <li class="section__item">Получение лицензии</li>
+                                <li class="section__item">Процессинг</li>
+                                <li class="section__item">Выпуск карт</li>
+                                <li class="section__item">Подключение к платежным системам</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__container container">
+                    <div class="section__inner">
+                        <div class="section__content anim-items anim-no-hide anim-left">
+                            <h3 class="section__title">Инвестирование в ICO</h3>
+                            <ul class="section__list">
+                                <li class="section__item">Инвестирование в стартапы</li>
+                                <li class="section__item">Инвестирование в ICO-проекты</li>
+                                <li class="section__item">Развитие собственных проектов</li>
+                                <li class="section__item">Приобретение успешных ИТ-компаний</li>
+                            </ul>
+                        </div>
+                        <div class="section__wrapper anim-items anim-no-hide anim-right">
+                            <div class="section__img">
+                                <img src="images/icons/blockchain3.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="road-map">
+                <div class="road-map__container container">
+                    <h2 class="title title--white anim-items anim-no-hide anim-left">
+                        <span>Дорожная карта</span>
+                    </h2>
+                    <div class="road-map__inner">
+                        <div class="road-map__item">
+                            <div class="road-map__date">Январь 2018</div>
+                            <div class="road-map__check road-map__check--background anim-items anim-no-hide anim-scale">
+                                <img src="images/icons/check.svg" alt="">
+                            </div>
+                            <div class="road-map__text">Регистрация компании <br> в Беларуси</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Май 2019</div>
+                            <div class="road-map__check road-map__check--background anim-items anim-no-hide anim-scale">
+                                <img src="images/icons/check.svg" alt="">
+                            </div>
+                            <div class="road-map__text">Разработка смарт-контракта</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Февраль 2021</div>
+                            <div class="road-map__check road-map__check--background anim-items anim-no-hide anim-scale">
+                                <img src="images/icons/check.svg" alt="">
+                            </div>
+                            <div class="road-map__text">Разработка информационных <br> страниц о предстоящем ICO <br>
+                                и личного кабинета инвестора</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Апрель 2021</div>
+                            <div class="road-map__check road-map__check--background anim-items anim-no-hide anim-scale">
+                                <img src="images/icons/check.svg" alt="">
+                            </div>
+                            <div class="road-map__text">ICO <br> (Скоро будет запущено)</div>
+                        </div>
+
+                        <div class="road-map__item">
+                            <div class="road-map__date">Июль 2021</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Запуск 2-х проектов компании (TrueRich.io и sec.markets) и их
+                                монетизация</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Август 2021</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Регистрация компании в Эстонии и получение криптовалютной
+                                лицензии</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Август 2021</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Запуск 3-го проекта компании по обмену криптовалют через
+                                обменник и с помощью сделок OTC</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Сентябрь 2021</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Покупка и/или инвестирование 2-4 проектов других компаний,
+                                которые уже приносят доходы</div>
+                        </div>
+
+                        <div class="road-map__item">
+                            <div class="road-map__date">Октябрь 2021</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Регистрация компании в ПВТ (Беларусь)</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Ноябрь 2021</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Создание кастодиального сервиса по обмену, хранению криптовалют,
+                                включая DeFi и подключение к приему платежей криптовалют различных бизнесов по всему
+                                миру</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Декабрь 2021</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Регистрация компании в Великобритании и получение финансовой и
+                                криптовалютной лицензий</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Январь 2022</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Раунд А</div>
+                        </div>
+
+                        <div class="road-map__item">
+                            <div class="road-map__date">Февраль 2022</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Создание собственного банка</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Март 2022</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Регистрация компании в Сингапуре и получение криптовалютной
+                                лицензии</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Апрель 2022</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">Регистрация в качестве резидента в МФЦ Казахстана</div>
+                        </div>
+                        <div class="road-map__item">
+                            <div class="road-map__date">Май 2022</div>
+                            <div class="road-map__check anim-items anim-no-hide anim-scale">
+                            </div>
+                            <div class="road-map__text">IPO</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ideas">
+                <div class="ideas__container container">
+                    <div class="ideas__inner">
+                        <div class="ideas__content anim-items anim-no-hide anim-left">
+                            <h2 class="ideas__title title">
+                                <span>Воплощаем идеи <br> в жизнь</span>
+                            </h2>
+                            <div class="ideas__text">Пока другие мечтают найти новый Амазон на ранней стадии, мы уже
+                                зарабатываем на малых и средних ИТ-компаниях, финансируя их проекты
+                            </div>
+                            <div class="ideas__bottom">
+                                <div class="ideas__item">
+                                    <div class="ideas__icon">
+                                        <img src="images/icons/btc.svg" alt="Иконка">
+                                    </div>
+                                    <div class="ideas__valuta">0.000235 BTC</div>
+                                </div>
+                                <div class="ideas__item">
+                                    <div class="ideas__icon">
+                                        <img src="images/icons/usd.svg" alt="Иконка">
+                                    </div>
+                                    <div class="ideas__valuta">15 120.98 USD</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs anim-items anim-no-hide anim-right">
+                            <div class="tabs__header">
+                                <ul class="tabs__list">
+                                    <li data-tab-name="tab1" class="tabs__item active">Bitcoin</li>
+                                    <li data-tab-name="tab2" class="tabs__item">Ethereum</li>
+                                    <li data-tab-name="tab3" class="tabs__item">Tether</li>
+                                    <li data-tab-name="tab4" class="tabs__item">Tron</li>
+                                    <li data-tab-name="tab5" class="tabs__item">USDT</li>
+                                </ul>
+                            </div>
+                            <div class="tabs__body">
+                                <div class="tab1 tabs__content active">
+                                    <div class="tabs__block">
+                                        <div class="tabs__descr">Инвестируете</div>
+                                        <div class="tabs__row">
+                                            <div class="tabs__number">325.48</div>
+                                            <div class="select">
+                                                <div class="select__header">
+                                                    <div class="select__current">USD</div>
+                                                    <input class="select__input" type="text" name="select-field">
+                                                </div>
+                                                <div class="select__body">
+                                                    <ul class="select__list">
+                                                        <li class="select__item">
+                                                            <div class="select__value">EUR</div>
+                                                        </li>
+                                                        <li class="select__item">
+                                                            <div class="select__value">RUB</div>
+                                                        </li>
+                                                        <li class="select__item">
+                                                            <div class="select__value">USD</div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__block">
+                                        <div class="tabs__descr">Получаете</div>
+                                        <div class="tabs__row">
+                                            <div class="tabs__number">325.48</div>
+                                            <span class="tabs__valuta">FCG</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab2 tabs__content">Какой то текст</div>
+                                <div class="tab3 tabs__content">Еще какой то текст</div>
+                                <div class="tab4 tabs__content">Еще еще какой то текст</div>
+                                <div class="tab5 tabs__content">Еще еще еще какой то текст</div>
+                            </div>
+                            <div class="tabs__footer">
+                                <button class="tabs__btn">Сделать вклад</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="structure">
+                <div class="structure__bg">
+                    <img loading="lazy" src="images/main/bg2.png" alt="">
+                </div>
+                <div class="structure__container container">
+                    <h2 class="structure__title title anim-items anim-no-hide anim-right">
+                        <span>Структура по токенам</span>
+                    </h2>
+                    <div class="structure__inner">
+                        <div class="structure__block anim-items anim-no-hide anim-left">
+                            <div class="structure__wrapper">
+                                <div class="structure__img">
+                                    <img loading="lazy" src="images/main/diagram1.svg" alt="">
+                                    <div class="structure__descr">Общее Количество Токенов <br> 500 000 000 CGLT </div>
+                                </div>
+                                <div class="structure__content">
+                                    <div class="structure__heading">Распределение токенов</div>
+                                    <div class="structure__items">
+                                        <div class="structure__item">
+                                            <div class="structure__dot" style="background: #9B7FD7;"></div>
+                                            <div class="structure__percent">2%</div>
+                                            <div class="structure__count">10 млн</div>
+                                            <div class="structure__text">Бонусы (air drop)</div>
+                                        </div>
+                                        <div class="structure__item">
+                                            <div class="structure__dot" style="background: #5861CD;"></div>
+                                            <div class="structure__percent">3%</div>
+                                            <div class="structure__count">15 млн</div>
+                                            <div class="structure__text">Реклама Cryptor.guru Lab (bounty)</div>
+                                        </div>
+                                        <div class="structure__item">
+                                            <div class="structure__dot" style="background: #5861CD;"></div>
+                                            <div class="structure__percent">30%</div>
+                                            <div class="structure__count">150 млн</div>
+                                            <div class="structure__text">Резерв (может быть продан только инвесторам напрямую через личный кабинет или со смарт-контракта, на биржу выпускаться НЕ будет; будет решаться совместно с держателями данного токена; цели  исключительно на инвестирование и расширение компании)</div>
+                                        </div>
+                                        <div class="structure__item">
+                                            <div class="structure__dot" style="background: #FC996A;"></div>
+                                            <div class="structure__percent">65%</div>
+                                            <div class="structure__count">325 млн</div>
+                                            <div class="structure__text">ICO (что не продали - то сжигается)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="structure__block anim-items anim-no-hide anim-right">
+                            <div class="structure__wrapper">
+                                <div class="structure__img">
+                                    <img loading="lazy" src="images/main/diagram2.svg" alt="">
+                                </div>
+                                <div class="structure__content">
+                                    <div class="structure__heading">Распределение средств после ICO</div>
+                                    <div class="structure__items">
+                                        <div class="structure__item">
+                                            <div class="structure__dot" style="background: #9B7FD7;"></div>
+                                            <div class="structure__percent">10%</div>
+                                            <div class="structure__text">Команда</div>
+                                        </div>
+                                        <div class="structure__item">
+                                            <div class="structure__dot" style="background: #5861CD;"></div>
+                                            <div class="structure__percent">20%</div>
+                                            <div class="structure__text">Реклама продуктов Cryptor.guru Lab</div>
+                                        </div>
+                                        <div class="structure__item">
+                                            <div class="structure__dot" style="background: #FC996A;"></div>
+                                            <div class="structure__percent">70%</div>
+                                            <div class="structure__text">На развитие продуктов и проектов Cryptor.guru Lab</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="seo">
+                <div class="seo__container container">
+                    <div class="seo__inner">
+                        <div class="seo__content anim-items anim-no-hide anim-left">
+                            <h3 class="seo__title">Ожидаемый рост в 60х после листинга на бирже</h3>
+                            <p class="seo__text">Выкупаем свои токены и сжигаем. 20% прибыли компании тратим на выкуп собственной монеты и сжигание ее</p>
+                            <a class="seo__btn btn" href="#">Открыть счёт</a>
+                        </div>
+                        <div class="seo__img anim-items anim-no-hide anim-right">
+                            <img loading="lazy" src="images/main/seo.png" alt="Картинка">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="team">
+                <div class="team__container container">
+                    <h2 class="team__title title anim-items anim-no-hide anim-left">
+                        <span>Наша команда</span>
+                    </h2>
+                    <div class="team__inner">
+                        <div class="team__item anim-items anim-no-hide anim-show inim-transition">
+                            <div class="team__wrapper">
+                                <div class="team__img">
+                                    <img loading="lazy" src="images/team/01.png" alt="Фото">
+                                </div>
+                                <div class="team__content">
+                                    <div class="team__name">
+                                        <span>Alex Meleshko</span>
+                                        <img src="images/icons/belarus.svg" alt="">
+                                    </div>
+                                    <div class="team__post">IT Entrepreneur, Founder – CRYPTOR.GURU</div>
+                                </div>
+                                <div class="social">
+                                    <ul class="social__list">
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/in.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/fb.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item anim-items anim-no-hide anim-show inim-transition">
+                            <div class="team__wrapper">
+                                <div class="team__img">
+                                    <img loading="lazy" src="images/team/02.png" alt="Фото">
+                                </div>
+                                <div class="team__content">
+                                    <div class="team__name">
+                                        <span>Vadim N</span>
+                                        <img src="images/icons/belarus.svg" alt="">
+                                    </div>
+                                    <div class="team__post">Chief Executive Officer at BlackShot.dev</div>
+                                </div>
+                                <div class="social">
+                                    <ul class="social__list">
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/in.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/fb.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item anim-items anim-no-hide anim-show inim-transition">
+                            <div class="team__wrapper">
+                                <div class="team__img">
+                                    <img loading="lazy" src="images/team/03.png" alt="Фото">
+                                </div>
+                                <div class="team__content">
+                                    <div class="team__name">
+                                        <span>Andrei Tsaryk</span>
+                                        <img src="images/icons/belarus.svg" alt="">
+                                    </div>
+                                    <div class="team__post">Director at Cryptor Group</div>
+                                </div>
+                                <div class="social">
+                                    <ul class="social__list">
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/in.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/fb.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item anim-items anim-no-hide anim-show inim-transition">
+                            <div class="team__wrapper">
+                                <div class="team__img">
+                                    <img loading="lazy" src="images/team/04.png" alt="Фото">
+                                </div>
+                                <div class="team__content">
+                                    <div class="team__name">
+                                        <span>Egor Desinov</span>
+                                        <img src="images/icons/belarus.svg" alt="">
+                                    </div>
+                                    <div class="team__post">Глава подразделения маркетинга и PR</div>
+                                </div>
+                                <div class="social">
+                                    <ul class="social__list">
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/in.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/fb.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team__item anim-items anim-no-hide anim-show inim-transition">
+                            <div class="team__wrapper">
+                                <div class="team__img">
+                                    <img loading="lazy" src="images/team/05.png" alt="Фото">
+                                </div>
+                                <div class="team__content">
+                                    <div class="team__name">
+                                        <span>Kate Grikian</span>
+                                        <img src="images/icons/belarus.svg" alt="">
+                                    </div>
+                                    <div class="team__post">Deputy manager of projects at Cryptor Group</div>
+                                </div>
+                                <div class="social">
+                                    <ul class="social__list">
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/in.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/fb.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item anim-items anim-no-hide anim-show inim-transition">
+                            <div class="team__wrapper">
+                                <div class="team__img">
+                                    <img loading="lazy" src="images/team/06.png" alt="Фото">
+                                </div>
+                                <div class="team__content">
+                                    <div class="team__name">
+                                        <span>Alexandra Shauchuk</span>
+                                        <img src="images/icons/belarus.svg" alt="">
+                                    </div>
+                                    <div class="team__post">Project manager – Cryptor Group</div>
+                                </div>
+                                <div class="social">
+                                    <ul class="social__list">
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/in.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/fb.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item anim-items anim-no-hide anim-show inim-transition">
+                            <div class="team__wrapper">
+                                <div class="team__img">
+                                    <img loading="lazy" src="images/team/07.png" alt="Фото">
+                                </div>
+                                <div class="team__content">
+                                    <div class="team__name">
+                                        <span>Ann Sokoliuk</span>
+                                        <img src="images/icons/belarus.svg" alt="">
+                                    </div>
+                                    <div class="team__post">Assistant of top-manager of projects at Cryptor Group</div>
+                                </div>
+                                <div class="social">
+                                    <ul class="social__list">
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/in.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/fb.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item anim-items anim-no-hide anim-show inim-transition">
+                            <div class="team__wrapper">
+                                <div class="team__img">
+                                    <img loading="lazy" src="images/team/08.png" alt="Фото">
+                                </div>
+                                <div class="team__content">
+                                    <div class="team__name">
+                                        <span>Cryptor.Guru</span>
+                                        <img src="images/icons/location.svg" alt="">
+                                    </div>
+                                    <div class="team__post">Blockchain development for business</div>
+                                </div>
+                                <div class="social">
+                                    <ul class="social__list">
+                                        <li class="social__item">
+                                            <a href="#" class="social__link">
+                                                <img src="images/icons/in.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="registration">
+                <div class="registration__bg">
+                    <img loading="lazy" src="images/main/bg3.png" alt="">
+                </div>
+                <div class="registration__container container">
+                    <div class="registration__inner">
+                        <a class="registration__img glightbox anim-items anim-no-hide anim-left" href="images/main/license2.png">
+                            <img loading="lazy" src="images/main/license.png" alt="Лицензия">
+                        </a>
+                        <div class="registration__content anim-items anim-no-hide anim-right">
+                            <h2 class="registration__title title">
+                                <span>Регистрация и адрес</span>
+                            </h2>
+                            <p class="registration__text">Tortor magna scelerisque ipsum nibh quis ultrices enim arcu risus. In dui massa mi consectetur ultrices. Id suspendisse ut aliquam lorem ut. Est ut cras in felis, malesuada proin lacinia pretium ipsum. Sed adipiscing quis et et, lectus. Ut tristique ornare morbi pellentesque sit scelerisque scelerisque. Diam quis libero, sed viverra amet a, habitasse.</p>
+                            <a href="" class="registration__btn btn">White Papaer</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="subscription">
+                <div class="subscription__container container">
+                    <div class="subscription__inner">
+                        <div class="subscription__img anim-items anim-no-hide anim-left">
+                            <img loading="lazy" src="images/main/subscription.png" alt="Фото">
+                        </div>
+                        <div class="subscription__bg anim-items anim-no-hide anim-right">
+                            <img loading="lazy" src="images/main/bg4.png" alt="">
+                        </div>
+                        <div class="subscription__content">
+                            <h3 class="subscription__title">Будьте в курсе!</h3>
+                            <p class="subscription__text">Подпишитесь на нашу e-mail рассылку и получаейте самые свежие новости из мира криптовалют</p>
+                            <form class="form">
+                                <div class="form__item">
+                                    <img class="form__icon" src="images/icons/email.svg" alt="">
+                                    <input class="form__input" type="email" name="email" placeholder="ivan_ivanov@gmail.com">
+                                </div>
+                                <button class="form__btn btn" type="submit">Подписаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="press">
+                <div class="press__container container">
+                    <h2 class="press__title title anim-items anim-no-hide anim-left">
+                        <span>Crypto.Guru в прессе</span>
+                    </h2>
+                    <div class="press__inner">
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/08.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/30.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/28.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/06.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/14.svg" alt="">
+                        </div>
+
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/22.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/17.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/20.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/12.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/23.svg" alt="">
+                        </div>
+
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/04.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/24.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/16.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/01.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/07.svg" alt="">
+                        </div>
+
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/18.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/10.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/02.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/15.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/05.svg" alt="">
+                        </div>
+
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/25.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/09.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/11.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/27.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/03.svg" alt="">
+                        </div>
+
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/21.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/29.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/13.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/19.svg" alt="">
+                        </div>
+                        <div class="press__img anim-items anim-no-hide anim-scale inim-transition">
+                            <img src="images/press/26.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__top">
+                    <a href="index.html" class="footer__logo">
+                        <img src="images/main/logo.png" alt="">
+                    </a>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Главная</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Для бизнеса</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Партнерам</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">О банке</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Инвестиции</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Вопросы/Ответы</a>
+                        </li>
+                    </ul>
+                    <a class="footer__email" href="mailto:support@cryptor.guru ">support@cryptor.guru</a>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__copy">Fund Cryptor.Guru Все права защищены</div>
+                    <a class="footer__politics" href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
+        <div class="progress-bar"></div>
+        <button class="scroll-top"></button>
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
